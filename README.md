@@ -3,20 +3,19 @@
 <p align="center">
   <img src="app2.png" width="250"/>
   <img src="app3.png" width="250"/>
-  <img src="app4.png" width="250"/>
 </p>
 
 Features beyond the base example:
-- ✅ CRUD with Provider + SQLite (offline)
-- 🔍 Search by title or tag
-- 🏷️ Tags (comma-separated)
-- ⏰ Due date with overdue highlight
-- ⭐ Priority (Low, Medium, High)
-- 📊 Stats (All / Active / Done)
-- ↩️ Undo on delete (SnackBar)
-- 🧹 Multi-select + bulk delete
-- 🗂️ Sort by Due / Priority / Created
-- 🎨 Polished UI with Material 3 and purple/white theme
+-  CRUD พร้อม Provider + SQLite (ออฟไลน์)
+-  ค้นหาตามชื่อเรื่องหรือแท็ก
+-  แท็ก (คั่นด้วยจุลภาค)
+-  วันครบกำหนดพร้อมไฮไลต์วันที่เลยกำหนด
+-  ลำดับความสำคัญ (ต่ำ, กลาง, สูง)
+-  สถิติ (ทั้งหมด / กำลังดำเนินการ / เสร็จสิ้น)
+-  ยกเลิกเมื่อลบ (SnackBar)
+-  เลือกหลายรายการ + ลบจำนวนมาก
+-  เรียงลำดับตาม กำหนด / ลำดับความสำคัญ / สร้าง
+-  UI ที่สวยงามด้วย Material 3 และธีมสีม่วง/ขาว
 
 ## Quick start
 ```bash
@@ -43,4 +42,3 @@ lib/
 
 This app is built from the base sample that uses Provider + SQLite and adds UI/UX and data model improvements for AS-08.
 # todo_provider_sqlite
-# AS-08-todo-provider-sqlite
